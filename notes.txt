@@ -1,0 +1,3 @@
+Unidade de medida 'sp':
+	- Scale independent pixels.
+	- Mantém o tamanho/escala da fonte independente do dispositivo.
