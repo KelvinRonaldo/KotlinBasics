@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 //        val = Declarar constantes
-//        ver = Declarar variáveis
+//        var = Declarar variáveis
         val btnClickHere = findViewById<Button>(R.id.btnClickHere)
         val tvMain = findViewById<TextView>(R.id.txtMain)
         var counter = 0
