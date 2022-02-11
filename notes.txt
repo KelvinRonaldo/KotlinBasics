@@ -1,3 +1,8 @@
 Unidade de medida 'sp':
 	- Scale independent pixels.
 	- Mantém o tamanho/escala da fonte independente do dispositivo.
+
+
+class = Final por padrão. Não pode ser herdada
+open class  = Herança permitida.
+sealed class = "Lacra" a classe. Também não pode ser herdada.
