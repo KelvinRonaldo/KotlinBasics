@@ -6,3 +6,27 @@ Unidade de medida 'sp':
 class = Final por padrão. Não pode ser herdada
 open class  = Herança permitida.
 sealed class = "Lacra" a classe. Também não pode ser herdada.
+
+
+
+Em kotlin, cada tipo de dado "numérico" tem uma classe de array
+ .IntArray
+ .BooleanArray
+ .DoubleArray
+ .ByteArray
+ .LongArray
+ .ShortArray
+ .FloatArray
+E todos são equivalentes, porém não iguais, a Array<T>
+
+Os tipos
+ .List - listOf
+ .Set - setOf
+ .Map - mapOf
+são imutáveis, são valores apenas de leitura.
+
+Os tipo
+ .Mutable List - ArrayList, arrayListOf, mutableListOf
+ .Mutable Set - mutableSetOf, hashSetOf
+ .Mutable Map - HashMap, hashMapOf, mutableHashOf
+são mutáveis.
